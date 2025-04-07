@@ -12,6 +12,17 @@ const ContactContainer = styled.section`
     margin-bottom: 40px;
     color: #333;
   }
+
+   @media (max-width: 768px) {
+    padding: 60px 10px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 40px 10px;
+    h2 {
+      font-size: 2rem;
+    }
+  }
 `;
 
 const FormWrapper = styled.div`
@@ -26,6 +37,18 @@ const FormWrapper = styled.div`
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  
+
+   @media (max-width: 768px) {
+    max-width: 500px;
+    padding: 25px;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 90%;
+    padding: 20px;
+  }
 `;
 
 const InputField = styled.input`
@@ -35,10 +58,21 @@ const InputField = styled.input`
   border-radius: 5px;
   border: 1px solid #ddd;
   font-size: 1rem;
+  box-sizing: border-box;
+  text-align: center;
 
   &:focus {
     border-color: #007bff;
     outline: none;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.85rem;
+    padding: 10px;
   }
 `;
 
@@ -50,10 +84,21 @@ const TextAreaField = styled.textarea`
   border: 1px solid #ddd;
   font-size: 1rem;
   height: 150px;
+  box-sizing: border-box;
+  text-align: center;
 
   &:focus {
     border-color: #007bff;
     outline: none;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.85rem;
+    height: 120px;
   }
 `;
 
@@ -69,6 +114,15 @@ const SubmitButton = styled.button`
 
   &:hover {
     background-color: #0056b3;
+  }
+      
+  @media (max-width: 768px) {
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.85rem;
+    padding: 8px 16px;
   }
 `;
 
