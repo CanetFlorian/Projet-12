@@ -118,7 +118,7 @@ const Projects = () => {
                 <ProjectImageStyled src={sophiebluel} alt="Photo du site de Sophie Bluel"/>
             </ImageContainer>
             <TextContainer>
-                <ProjectTitle>Projet 1 - Ohmyfood</ProjectTitle>
+                <ProjectTitle>Projet 2 - Sophie Bluel</ProjectTitle>
                 <ProjectDescription>
                 En tant que développeur front-end pour l’agence ArchiWebos, j’ai contribué à la création du portfolio de l'architecte
               d’intérieur Sophie Bluel. Mes principales missions incluaient la création de la page de présentation des travaux,
@@ -133,7 +133,7 @@ const Projects = () => {
                 <ProjectImageStyled src={kasa} alt="Photo du site de Kasa"/>
             </ImageContainer>
             <TextContainer>
-                <ProjectTitle>Projet 1 - Ohmyfood</ProjectTitle>
+                <ProjectTitle>Projet 3 - Kasa</ProjectTitle>
                 <ProjectDescription>
                 En tant que développeur front-end freelance pour Kasa, j’ai participé à la refonte complète du site de location d’appartements.
               Le projet impliquait de migrer le code legacy en ASP.NET vers une stack moderne JavaScript avec NodeJS côté back-end et React côté front-end.

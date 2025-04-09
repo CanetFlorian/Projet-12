@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import {init, sendForm} from '@emailjs/browser';
+import Gmail from '../../assets/gmail.png';
+import Instagram from '../../assets/instagram.png'
 
 const ContactContainer = styled.section`
   padding: 80px 20px;
@@ -126,6 +128,11 @@ const SubmitButton = styled.button`
   }
 `;
 
+const LienContainer = styled.div`
+
+padding-bottom : 50px;
+`
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -164,7 +171,16 @@ const Contact = () => {
 
   return (
     <ContactContainer id="contact">
-      <h2>Contactez-moi</h2>
+      
+      <h2>Contact</h2>
+      <LienContainer>
+        <a href="mailto:florian.canet12@gmail.com">
+        <img src={Gmail} alt="Gmail" />
+        </a>
+        <a href="https://www.instagram.com/floriancanet/">
+        <img src={Instagram} alt="Instagram" />
+        </a>
+        </LienContainer>
       <FormWrapper>
         <form onSubmit={handleSubmit}>
           <InputField

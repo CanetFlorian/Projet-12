@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Profilphoto from '../../assets/dev-web.jpg'
 
+
 const AboutContainer = styled.section`
   padding: 80px 20px;
   background-color: #f1faee;
@@ -19,9 +20,9 @@ const ImageContainer = styled.div`
 `;
 
 const ProfileImage = styled.img`
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 600px;
+  height: 100%;
+  border-radius:10%;
   object-fit: cover;
 `;
 

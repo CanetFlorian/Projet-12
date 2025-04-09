@@ -32,15 +32,17 @@ const SkillItem = styled.li`
   justify-content: center;
   align-items: center;
   transition: transform 0.3s;
+
   
   &:hover {
-    transform: translateY(-10px);
+    transform: scale(1.1);
   }
 
   svg {
     font-size: 40px;
     margin-bottom: 10px;
   }
+
 `;
 
 const Skills = () => {

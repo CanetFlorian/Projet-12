@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Banner from '../../assets/banner2.jpg'
 
 const HeaderContainer = styled.header`
   background-color: #2b2d42;
@@ -7,6 +8,12 @@ const HeaderContainer = styled.header`
   padding: 20px 0;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 50vh;
+  width:100%;
+  background-image: url(${Banner});
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
 `;
 
 const Nav = styled.nav`
