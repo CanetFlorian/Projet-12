@@ -124,7 +124,7 @@ const Projects = () => {
               d’intérieur Sophie Bluel. Mes principales missions incluaient la création de la page de présentation des travaux,
               la page de connexion de l'administrateur et le développement d’une modale pour l’upload de nouveaux médias.
                 </ProjectDescription>
-                <ProjectLink href="" target="_blank">Voir le projet</ProjectLink>
+                <ProjectLink href="https://github.com/CanetFlorian/Projet-6-Portfolio-architecte-sophie-bluel" target="_blank">Voir le projet</ProjectLink>
             </TextContainer>
         </ProjectCard>
 
