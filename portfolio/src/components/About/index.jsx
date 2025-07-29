@@ -20,10 +20,12 @@ const ImageContainer = styled.div`
 `;
 
 const ProfileImage = styled.img`
-  width: 600px;
-  height: 100%;
-  border-radius:10%;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10%;
   object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 `;
 
 const About = () => {

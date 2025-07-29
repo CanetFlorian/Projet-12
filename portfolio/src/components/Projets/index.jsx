@@ -139,7 +139,7 @@ const Projects = () => {
               Le projet impliquait de migrer le code legacy en ASP.NET vers une stack moderne JavaScript avec NodeJS côté back-end et React côté front-end.
               Une nouvelle interface a été conçue pour améliorer l'expérience utilisateur et renforcer la performance du site.
                 </ProjectDescription>
-                <ProjectLink href="" target="_blank">Voir le projet</ProjectLink>
+                <ProjectLink href="https://github.com/CanetFlorian/Projet-7-Cr-ez-une-application-web" target="_blank">Voir le projet</ProjectLink>
             </TextContainer>
         </ProjectCard>
       </div>
