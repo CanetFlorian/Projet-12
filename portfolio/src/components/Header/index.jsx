@@ -35,12 +35,14 @@ const HeaderContainer = styled.header`
   margin: 0;
   font-weight: bold;
   color: #f1f1f1;
+  font-family: 'Montserrat', sans-serif;
   }
 
   p {
     font-size: 1.4rem;
     color: #dddddd;
     margin-top: 10px;
+    font-family : 'Roboto', sans-serif;
   }
 
     @media (max-width: 768px) {

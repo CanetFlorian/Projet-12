@@ -7,6 +7,18 @@ const AboutContainer = styled.section`
   padding: 80px 20px;
   background-color: #f1faee;
   text-align: center;
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    
 `;
 
 const AboutContent = styled.div`
